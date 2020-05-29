@@ -1,0 +1,4 @@
+staticfy:
+  directory: "/statics"
+  prefix: "/publisher"
+  port: 9000

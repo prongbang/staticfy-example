@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  app_staticfy:
+    image: prongbang/staticfy:latest
+    ports:
+      - "9000:9000"
+    volumes:
+      - "./staticfy:/staticfy"
