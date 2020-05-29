@@ -3,7 +3,19 @@
 ### Project structure
 
 ```bash
-
+staticfy-example
+├── README.md
+├── docker-compose.yml
+└── staticfy
+    ├── config.yml
+    └── statics
+        ├── hello.txt
+        ├── html
+        │   └── hello.html
+        ├── image
+        │   └── wiremock.png
+        └── test
+            └── test.txt
 ```
 
 ## Run with docker-compose
